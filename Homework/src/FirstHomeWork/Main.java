@@ -41,6 +41,5 @@ public class Main {
         int birthYear = 1993;
         int age = currentYear - birthYear;
         System.out.println(age);
-        
     }
 }
