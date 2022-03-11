@@ -1,0 +1,9 @@
+<suite name="Automation Suite" thread-count="3" parallel="tests">
+    <test name="TestSuit1" parallel="tests">
+        <classes>
+            <class name="elitelectronics.ee_new"/>
+        </classes>
+    </test>
+
+
+</suite>
