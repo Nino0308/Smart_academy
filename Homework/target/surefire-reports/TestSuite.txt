@@ -1,0 +1,45 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 26.487 s <<< FAILURE! - in TestSuite
+elitElectronics(elitelectronics.ee_new)  Time elapsed: 6.573 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {.asasa}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930676298.0.png
+Page source: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930676298.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".asasa"}
+	at elitelectronics.ee_new.elitElectronics(ee_new.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".asasa"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Apples-MacBook-Pro.local', ip: 'fe80:0:0:0:435:3e0c:2f68:eeca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bc70eae84ac51c425f67d4b5ccf3083, findElement {using=css selector, value=.asasa}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/3v/gdlfy9094hq...}, goog:chromeOptions: {debuggerAddress: localhost:50963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bc70eae84ac51c425f67d4b5ccf3083
+	at elitelectronics.ee_new.elitElectronics(ee_new.java:28)
+
+test2(elitelectronics.ee_new)  Time elapsed: 10.816 s  <<< FAILURE!
+com.codeborne.selenide.ex.InvalidStateException: 
+Invalid element state [By.id: confirmPassword]: element click intercepted: Element <input type="password" class="form-control  is-invalid" name="confirmPassword" id="confirmPassword" value="" placeholder="გაიმეორეთ პაროლი"> is not clickable at point (860, 583). Other element would receive the click: <div class="d-xs-none">...</div>
+Screenshot: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930686680.1.png
+Page source: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930686680.1.html
+Timeout: 4 s.
+Caused by: ElementClickInterceptedException: element click intercepted: Element <input type="password" class="form-control  is-invalid" name="confirmPassword" id="confirmPassword" value="" placeholder="გაიმეორეთ პაროლი"> is not clickable at point (860, 583). Other element would receive the click: <div class="d-xs-none">...</div>
+	at elitelectronics.ee_new.test2(ee_new.java:56)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="password" class="form-control  is-invalid" name="confirmPassword" id="confirmPassword" value="" placeholder="გაიმეორეთ პაროლი"> is not clickable at point (860, 583). Other element would receive the click: <div class="d-xs-none">...</div>
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Apples-MacBook-Pro.local', ip: 'fe80:0:0:0:435:3e0c:2f68:eeca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bc70eae84ac51c425f67d4b5ccf3083, clickElement {id=d1c57426-e07c-4118-b43a-9777d943b5b4}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/3v/gdlfy9094hq...}, goog:chromeOptions: {debuggerAddress: localhost:50963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (0bc70eae84ac51c425f67d4b5ccf3083)] -> id: confirmPassword]
+Session ID: 0bc70eae84ac51c425f67d4b5ccf3083
+	at elitelectronics.ee_new.test2(ee_new.java:56)
+

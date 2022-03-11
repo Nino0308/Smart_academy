@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.487" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.4/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Malta"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/conf"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.4/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/appleuser"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+1"/>
+    <property name="user.name" value="appleuser"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/3v/gdlfy9094hq0mv99tfqxfs5h0000gn/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/appleuser/Desktop/ee"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/appleuser/Desktop/ee"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/appleuser/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.1+1"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.4/libexec/lib/jansi-native"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="elitElectronics" classname="elitelectronics.ee_new" time="6.573">
+    <failure message="Element not found {.asasa}&#10;Expected: visible or transparent: visible or have css value opacity=0&#10;Screenshot: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930676298.0.png&#10;Page source: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930676298.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.asasa&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {.asasa}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930676298.0.png
+Page source: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930676298.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".asasa"}
+	at elitelectronics.ee_new.elitElectronics(ee_new.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".asasa"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Apples-MacBook-Pro.local', ip: 'fe80:0:0:0:435:3e0c:2f68:eeca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bc70eae84ac51c425f67d4b5ccf3083, findElement {using=css selector, value=.asasa}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/3v/gdlfy9094hq...}, goog:chromeOptions: {debuggerAddress: localhost:50963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bc70eae84ac51c425f67d4b5ccf3083
+	at elitelectronics.ee_new.elitElectronics(ee_new.java:28)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 53349
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 10, 2022 5:44:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 10, 2022 5:44:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 97
+Mar 10, 2022 5:44:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 99 of 97
+]]></system-err>
+  </testcase>
+  <testcase name="test2" classname="elitelectronics.ee_new" time="10.816">
+    <failure message="Invalid element state [By.id: confirmPassword]: element click intercepted: Element &lt;input type=&quot;password&quot; class=&quot;form-control  is-invalid&quot; name=&quot;confirmPassword&quot; id=&quot;confirmPassword&quot; value=&quot;&quot; placeholder=&quot;გაიმეორეთ პაროლი&quot;&gt; is not clickable at point (860, 583). Other element would receive the click: &lt;div class=&quot;d-xs-none&quot;&gt;...&lt;/div&gt;&#10;Screenshot: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930686680.1.png&#10;Page source: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930686680.1.html&#10;Timeout: 4 s.&#10;Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;password&quot; class=&quot;form-control  is-invalid&quot; name=&quot;confirmPassword&quot; id=&quot;confirmPassword&quot; value=&quot;&quot; placeholder=&quot;გაიმეორეთ პაროლი&quot;&gt; is not clickable at point (860, 583). Other element would receive the click: &lt;div class=&quot;d-xs-none&quot;&gt;...&lt;/div&gt;" type="com.codeborne.selenide.ex.InvalidStateException"><![CDATA[com.codeborne.selenide.ex.InvalidStateException: 
+Invalid element state [By.id: confirmPassword]: element click intercepted: Element <input type="password" class="form-control  is-invalid" name="confirmPassword" id="confirmPassword" value="" placeholder="გაიმეორეთ პაროლი"> is not clickable at point (860, 583). Other element would receive the click: <div class="d-xs-none">...</div>
+Screenshot: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930686680.1.png
+Page source: file:/Users/appleuser/Desktop/ee/build/reports/tests/1646930686680.1.html
+Timeout: 4 s.
+Caused by: ElementClickInterceptedException: element click intercepted: Element <input type="password" class="form-control  is-invalid" name="confirmPassword" id="confirmPassword" value="" placeholder="გაიმეორეთ პაროლი"> is not clickable at point (860, 583). Other element would receive the click: <div class="d-xs-none">...</div>
+	at elitelectronics.ee_new.test2(ee_new.java:56)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="password" class="form-control  is-invalid" name="confirmPassword" id="confirmPassword" value="" placeholder="გაიმეორეთ პაროლი"> is not clickable at point (860, 583). Other element would receive the click: <div class="d-xs-none">...</div>
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Apples-MacBook-Pro.local', ip: 'fe80:0:0:0:435:3e0c:2f68:eeca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bc70eae84ac51c425f67d4b5ccf3083, clickElement {id=d1c57426-e07c-4118-b43a-9777d943b5b4}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/3v/gdlfy9094hq...}, goog:chromeOptions: {debuggerAddress: localhost:50963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50963/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (0bc70eae84ac51c425f67d4b5ccf3083)] -> id: confirmPassword]
+Session ID: 0bc70eae84ac51c425f67d4b5ccf3083
+	at elitelectronics.ee_new.test2(ee_new.java:56)
+]]></failure>
+  </testcase>
+</testsuite>
